@@ -1,0 +1,43 @@
+﻿Javascript
+
+variáveis
+var nome = “Gildson”;
+var x = 10;
+alert(x);
+alert(“O valor de x é:  ” + x);
+var y = 20;
+x + y ;
+x * y;
+x / y;
+
+var soma = 0;
+soma = x + y;
+alert(“Nome: ” + nome + “ “);
+console.log(nome);
+
+OBS: sensível a maiúsculas, minusculas e outros
+
+Redirect e Refresh
+
+Arrays
+
+var lista = [“Gildson”, “Rafaela”, “Rafael”, “Guilherme”, 4];
+//para puxar por posição
+lista[1];
+//para encontrar algo na lista, isso devolve a posição que o item está no array, no caso devolve 2
+//se não existir devolve -1
+lista.indexOf(“Rafaela”);
+//como eu quero juntar os itens do array, do jeito que quiser
+lista.join(“,”);
+lista.join(“ / ”);
+lista.join(“ * ”);
+//eliminar o último item do array
+lista.pop();
+//eliminar o primeiro item do array
+lista.shift();
+//alterar um item, buscando a posição do item
+lista.indexOf(“Gildson”);
+lista[0] = “Gildson1”;
+//colocar um item no array
+lista.push(“Gildson”);
+

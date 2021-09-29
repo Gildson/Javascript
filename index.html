@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aprendendo Javascript</title>
+  		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<!--Redirect-->
+		<button onclick="window.location.href='https://sujeitoprogramador.com';">Ir ao sujeito progrramador</button>
+		<button onclick="window.location.href='contato.html';">Ir para contato</button>
+		
+		<!--Refresh-->
+   	<button onclick="window.location.href = window.location.href">Atualizar a página</button>
+   	
+   	<div id="login1">
+   		Bem vindo ...
+   	</div>
+   	
+   	<!--Quebra de linha-->
+   	<br/><br/>
+   	
+   	<h1>Subistituir todo o "Bem vindo ..."</h1>
+   	<!--, se não quiser apagar pode se concatenar com o conteúdo da div-->
+   	<button onclick="document.getElementById('login1').innerHTML = prompt('Qual seu nome? ');">Entrar</button>
+	
+		<br/><br/>
+		
+		<div id="login2">
+   		Bem vindo ...
+   	</div>
+
+   	<h1>Altera o nome do butão</h1>
+   	<button onclick="this.innerHTML = prompt('Qual o nome do butão?');">Qual meu nome?</button>
+   	
+   	
+   	<br/><br/>
+		
+		<h1>Altera o "bem vindo ..." usando função</h1>
+		<div id="login3">
+   		Bem vindo ...
+   	</div>
+
+   	
+   	<button onclick="entrar()">Entrar</button>
+
+   	<br/><br/>
+		
+		<h1>Altera o "bem vindo ..." usando função com parámetro</h1>
+		<div id="login4">
+   		Bem vindo ...
+   	</div>
+
+   	
+   	<button onclick="entrar2('Gildson', 32)">Entrar</button>
+   	
+   	<h1>Manipulando arrays</h1>
+   	
+   	
+
+	</body>
+								
+</html>	
