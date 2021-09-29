@@ -78,11 +78,11 @@ function temporizador(){
 	document.write("Executando...</br>");
 }
 //temporizador de tempo em tempo(function, tempo(ms))
-//setInterval(temporizador, 1000)
-
+setInterval(temporizador, 1000);
+//É possível fazer o break no temporizador se passamos ele para um variável e utilizamos a clearsetInterval
 
 //temporizador de execução unica(function, tempo(ms))
-//setTimeout(temporizador, 1000);
+setTimeout(temporizador, 1000);
 
 
 
