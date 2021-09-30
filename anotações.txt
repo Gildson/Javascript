@@ -41,3 +41,55 @@ lista[0] = “Gildson1”;
 //colocar um item no array
 lista.push(“Gildson”);
 
+//servem para tudo
+var: a variável existe fora do escopo onde ele foi criado;
+let: a variável só existe dentro do escopo onde ele foi criado;
+const: uma variável imutável.
+
+let nome = "Gildson";
+let sobrenome = "Bezerra";
+let idade = 32;
+let pessoa = `Meu nome eh: ${nome} ${sobrenome} e eu tenho ${idade} anos de idade`;
+
+desconstrução
+//criando objetos
+const pessoa = {
+	nome: "Gildson",
+	sobrenome: "Bezerra",
+	idade: 10,
+	cargo: "Programador"
+};
+
+//cria a variável nome pegando o parâmetro do objeto pessoa, igual para os outros parâmetros
+let {nome} = pessoa;
+
+//criar a variável programador pegando o parâmetro do objeto pessoa, igual para os outros parâmetros
+let { cargo: programador} = pessoa;
+
+//criando arrays
+let nomes = ['Gildson','Bezerra',32];
+
+//cria a variável sobrenome pegando a posição 1 do array nomes.
+let {1:sobrenome} = nomes;
+
+
+Spread operator (...) (juntar arrays)
+let primeiros = [1, 2, 3];
+let numeros = [...primeiros, 4, 5, 6];
+
+
+let pessoa = {
+	nome: "Gildson",
+	idade: 32,
+	cargo: "programador"
+};
+
+let novaPessoa = {
+	...pessoa,
+	sobrenome: "Bezerra",
+};
+
+
+
+
+
